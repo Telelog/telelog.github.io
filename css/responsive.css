@@ -83,10 +83,10 @@
   .pricing-tables .pricing-table {
     margin-bottom: 30px;
   }
-  #blog .blog-item-text h3 {
+  #details .blog-item-text h3 {
     font-size: 18px;
   }
-  #blog .blog-item-text .meta-tags span {
+  #details .blog-item-text .meta-tags span {
     margin-right: 5px;
   }
   .counters .facts-item {

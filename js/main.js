@@ -1,4 +1,24 @@
 /* 
+   goback
+   ========================================================================== */
+$(function(){
+	$('.goback').click(function(){
+		parent.history.back();
+		return false;
+	});
+});
+
+/* 
+   gohome
+   ========================================================================== */
+$(function(){
+	$('.gohome').click(function(){
+		window.location.href = "/"
+		return false;
+	});
+});
+
+/* 
    CounterUp
    ========================================================================== */
     jQuery(document).ready(function( $ ) {

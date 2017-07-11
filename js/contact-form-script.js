@@ -16,7 +16,7 @@ function submitForm(){
     var name = $("#name").val();
     var email = $("#email").val();
     var msg_subject = $("#msg_subject").val();
-    var message = $("#message").val();
+    var message = "\nmsg" + $("#message").val() + "\ncompany" + $("#company").val() + "\nstaff" + $("#staff").val();
 
 
     $.ajax({

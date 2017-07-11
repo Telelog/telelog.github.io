@@ -73,14 +73,34 @@
 	box-shadow: -1px 2px 3px 0px rgba(0, 0, 0, 0.16), 0 0px 0px 0px rgba(0, 0, 0, 0.12);
 }
 
-.logo-menu{
-	padding: 15px 0;
+.logo{
+	display:inline-block;
+	padding-top: 12px;
 }
+
+button.login{
+	display:inline-block;
+	margin-right: 56px;	
+}
+
+.menu-bg button.login{
+	color: #333;
+}
+
+.menu-bg button.login:hover {
+	color: #fff;
+}
+
+.logo-menu{
+	padding: 3px 0;
+}
+
 .menu-bg .logo-menu{
-	padding: 6px 0;
+	padding: 0;
 }
 .menu-bg .menu-button{
 	top: 5px;
+	padding: 12px;
 	color: #333;
 }
 
